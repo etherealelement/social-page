@@ -4,6 +4,8 @@ import Posts from "./profile-posts/posts";
 import User from "./profile-user/user";
 
 const Profile = () => {
+
+
 	return (
 		<>
 		<Banner></Banner>

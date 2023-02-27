@@ -1,0 +1,26 @@
+.posts{ 
+	padding-top: 50px;
+}
+
+.postsList {
+	list-style-type: none;
+	padding: 0;
+}
+
+.postsListItem{ 
+	display: flex;
+	align-items: center;
+}
+
+.userName{
+	padding-left: 10px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.userImg {
+	max-width: 50px;
+	max-height: 50px;
+	border-radius: 50%;
+}

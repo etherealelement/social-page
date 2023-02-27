@@ -3,3 +3,15 @@
 	font-size: 20px;
 	text-transform: uppercase;
 }
+
+.postsArea {
+	width: 100%;
+	height: 100%;
+}
+
+.postsBtn {
+	padding: 15px 20px;
+	background-color: rgb(100, 96, 96);
+	color: black;
+	border: none;
+}
