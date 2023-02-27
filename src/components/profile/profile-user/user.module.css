@@ -3,31 +3,31 @@
 }
 
 
-.user__inner img{
+.userInnerImg{
 	width: 100px;
 	height: 100px;
 	border-radius: 50%;
 }
 
-.user__inner {
+.userInner {
 	display: flex;
 	align-items: center;
 	padding-bottom: 50px;
 }
 
-.user__item{
+.userItem{
 	display: flex;
 	align-items: center;
 	margin-bottom: 5px;
 }
 
-.user__title {
+.userTitle {
 	font-weight: bold;
 	letter-spacing: 2px;
 	font-size: 20px;
 }
 
-.user-subtitle{ 
+.userSubtitle{ 
 	padding-left: 20px;
 	font-weight: bold;
 	font-size: 15px;

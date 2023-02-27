@@ -1,8 +1,10 @@
 import React from "react";
-import "./profle-banner.css"
+import styles from "./profle-banner.module.css";
+
+
 const Banner = () => {
 	return (
-		<div className="profile-banner">
+		<div className={styles.profileBanner}>
 			<img src="https://i.ytimg.com/vi/wd7wCYAmgCY/maxresdefault.jpg" alt="" />
 		</div>
 	)

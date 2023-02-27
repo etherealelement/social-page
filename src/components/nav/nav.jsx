@@ -1,37 +1,34 @@
 import React from "react";
-import "./nav.css"
+import styles from "./nav.module.css";
+
+
 const Nav = () => {
 	return (
-		<nav className="nav">
-			<ul className="nav-list">
-				<li className="nav-list__item">
-					<a href="" className="nav-link">
+		<nav className={styles.nav}>
+			<ul className={styles.navList}>
+				<li>
+					<a href="" className={styles.navLink}>
 						Profile
 					</a>
 				</li>
-				<li className="nav-list__item">
-					<a href="" className="nav-link">
+				<li>
+					<a href="" className={styles.navLink}>
 					Messages
 					</a>
 				</li>
-				<li className="nav-list__item">
-					<a href="" className="nav-link">
+				<li>
+					<a href="" className={styles.navLink}>
 					News
 					</a>
 				</li>
-				<li className="nav-list__item">
-					<a href="" className="nav-link">
+				<li>
+					<a href="" className={styles.navLink}>
 					Music
 					</a>
 				</li>
-				<li className="nav-list__item">
-					<a href="" className="nav-link">
+				<li>
+					<a href="" className={styles.navLink}>
 					Settings
-					</a>
-				</li>
-				<li className="nav-list__item">
-					<a href="" className="nav-link">
-
 					</a>
 				</li>
 			</ul>
