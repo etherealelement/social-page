@@ -3,6 +3,7 @@ import styles from'./App.module.css';
 import Nav from './components/nav/nav';
 import '@csstools/normalize.css';
 import Profile from './components/profile/profile';
+import Dialogs from './components/dialogs/dialogs';
 
 
 
@@ -14,7 +15,8 @@ function App() {
       </div>
       <Nav></Nav>
       <div className={styles.content}>
-      <Profile></Profile>
+      {/* <Profile></Profile> */}
+      <Dialogs></Dialogs>
       </div>
     </div>
   );
