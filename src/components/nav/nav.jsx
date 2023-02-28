@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import styles from "./nav.module.css";
 
 
@@ -6,30 +7,30 @@ const Nav = () => {
 	return (
 		<nav className={styles.nav}>
 			<ul className={styles.navList}>
-				<li>
-					<a href="/profile" className={styles.navLink}>
+				<li  className={styles.navLink}>
+					<NavLink to="/profile"  activeclassname={styles.active}>
 						Profile
-					</a>
+					</NavLink>
 				</li>
-				<li>
-					<a href="/dialogs" className={`${styles.navLink} ${styles.active}`}>
+				<li className={styles.navLink}>
+					<NavLink to="/dialogs" activeclassname={styles.active}>
 					Messager
-					</a>
+					</NavLink>
 				</li>
-				<li>
-					<a href="/news" className={styles.navLink}>
+				<li className={styles.navLink}>
+					<NavLink to="/news">
 					News
-					</a>
+					</NavLink>
 				</li>
-				<li>
-					<a href="/music" className={styles.navLink}>
+				<li className={styles.navLink}>
+					<NavLink to="/music">
 					Music
-					</a>
+					</NavLink>
 				</li>
-				<li>
-					<a href="/settings" className={styles.navLink}>
+				<li className={styles.navLink}>
+					<NavLink to="/settings">
 					Settings
-					</a>
+					</NavLink>
 				</li>
 			</ul>
 		</nav>

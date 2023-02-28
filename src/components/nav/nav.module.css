@@ -9,19 +9,23 @@
 	padding-left: 20px;
 }
 
+
+.navLink a:hover {
+	color: rgb(175, 164, 164);
+}
+
 .navLink {
+	padding-bottom: 10px;
+}
+
+.navLink a{
 	text-decoration: none;
 	color: black;
 	font-weight: normal;
 	transition: all .3s ease;
 }
 
-.navLink:hover {
-	color: rgb(175, 164, 164);
-
-}
-
-.active{
+.navLink a.active{ 
 	font-weight: bold;
 	font-size: 15;
 }
