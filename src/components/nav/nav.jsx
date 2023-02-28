@@ -7,27 +7,27 @@ const Nav = () => {
 		<nav className={styles.nav}>
 			<ul className={styles.navList}>
 				<li>
-					<a href="" className={styles.navLink}>
+					<a href="/profile" className={styles.navLink}>
 						Profile
 					</a>
 				</li>
 				<li>
-					<a href="" className={styles.navLink}>
-					Messages
+					<a href="/dialogs" className={`${styles.navLink} ${styles.active}`}>
+					Messager
 					</a>
 				</li>
 				<li>
-					<a href="" className={styles.navLink}>
+					<a href="/news" className={styles.navLink}>
 					News
 					</a>
 				</li>
 				<li>
-					<a href="" className={styles.navLink}>
+					<a href="/music" className={styles.navLink}>
 					Music
 					</a>
 				</li>
 				<li>
-					<a href="" className={styles.navLink}>
+					<a href="/settings" className={styles.navLink}>
 					Settings
 					</a>
 				</li>

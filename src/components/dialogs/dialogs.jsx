@@ -5,7 +5,7 @@ import styles from "./dialogs.module.css"
 const Dialogs = (props) => {
 	return (
 		<div>
-			<p className="dialogs"></p>
+			<p className="dialogs">DIalogs</p>
 		</div>
 	)
 }
