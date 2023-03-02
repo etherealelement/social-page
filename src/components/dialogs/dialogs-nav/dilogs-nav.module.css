@@ -1,0 +1,25 @@
+.dialogsList{
+	list-style-type: none;
+	padding-left: 20px;
+	margin: 0;
+}
+
+.dialogsListItem {
+	padding-bottom: 40px;
+}
+
+.active {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.dialogsListItem a{ 
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	transition: all .3s;
+}
+
+.dialogsListItem a:hover{
+	color: rgb(133, 128, 123);
+}
